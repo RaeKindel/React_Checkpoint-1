@@ -1,0 +1,39 @@
+/*reset*/
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.card{
+  width: 25%;
+  margin: 20px auto;
+  border: 1px solid transparent;
+  background-color: aliceblue;
+}
+img{
+    width: 100%;
+    height: 250px
+  }
+.fullname{
+  margin: 5px 0 5px 0;
+  text-align: center;
+  color: purple;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.gether{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  padding: 20px;
+}
+.bio{
+  text-align: justify;
+} 
+ button  {
+  width:auto;
+  background-color: red;
+  text-decoration: none;
+  padding: 10px 0px 10px 0px;
+ }
